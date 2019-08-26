@@ -1,0 +1,10 @@
+[14-Aug-2019 00:39:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc\public\index.php(45): Core\Router->dispatch('messenger/login...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 131
+[14-Aug-2019 00:39:10 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc\public\index.php(45): Core\Router->dispatch('messenger/login...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 131
+[14-Aug-2019 00:39:16 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\mvc\vendor\vendor\twig\twig\src\ExtensionSet.php on line 27
+[14-Aug-2019 00:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\mvc\vendor\vendor\twig\twig\src\NodeVisitor\EscaperNodeVisitor.php on line 33

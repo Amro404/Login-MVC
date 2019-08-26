@@ -1,0 +1,164 @@
+[19-Aug-2019 01:46:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 131
+[19-Aug-2019 02:40:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 131
+[19-Aug-2019 02:40:26 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 131
+[19-Aug-2019 02:41:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 131
+[19-Aug-2019 02:41:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 131
+[19-Aug-2019 02:52:38 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 02:52:43 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 02:53:08 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(71): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\mvc\App\Models\User.php(41): App\Models\User->validate()
+#2 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 71
+[19-Aug-2019 02:53:09 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(71): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\mvc\App\Models\User.php(41): App\Models\User->validate()
+#2 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 71
+[19-Aug-2019 02:53:11 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(71): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\mvc\App\Models\User.php(41): App\Models\User->validate()
+#2 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 71
+[19-Aug-2019 02:53:49 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 02:58:17 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined property: App\Models\User::$name'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(71): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\mvc\App\Models\User.php(41): App\Models\User->validate()
+#2 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#3 [internal function]: App\Controllers\Signup->createAction()
+#4 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 71
+[19-Aug-2019 02:59:24 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 03:02:39 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 03:02:52 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 03:05:21 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 03:12:39 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 03:12:47 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(51): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 03:13:47 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(56): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 50
+[19-Aug-2019 03:15:28 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(56): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 53
+[19-Aug-2019 03:15:32 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(56): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 53
+[19-Aug-2019 03:15:48 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(56): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(47): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(119): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(44): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 53
